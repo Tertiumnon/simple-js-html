@@ -1,5 +1,6 @@
-import { helloUserName } from './index.js';
-import { expect } from 'chai';
+// import { helloUserName } from './index.js';
+import { helloUserName } from "./index";
+import { expect } from "chai";
 
 // const expect = {
 //   toEqual: (actual, expected) => {
@@ -8,5 +9,4 @@ import { expect } from 'chai';
 //     }
 //   }
 // }
-
-expect.toEqual(helloUserName('John'), 'Hello, John');
+expect.toEqual(helloUserName("John"), "Hello, John");
