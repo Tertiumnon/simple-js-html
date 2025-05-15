@@ -1,3 +1,3 @@
-export function helloUserName(username) {
-  return `Hello, ${username}`;
+export function helloUserName(name, surname) {
+  return `Hello, ${name} ${surname}`;
 }
